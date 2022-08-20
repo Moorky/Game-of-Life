@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    align-items: center;
+    -webkit-user-select: none;
+    /* Safari */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* IE10+/Edge */
+    user-select: none;
+    /* Standard */
+}
+
+.mainFrame {
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    display: inline-block;
+    position: absolute;
+    margin: 1%;
+    padding: 1%;
+    background-color: rgb(58, 58, 58);
+}
+
+.grid {
+    width: 100%;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.cell {
+    display: inline-block;
+    border: 1px solid grey;
+    background-color: white;
+    width: 20px;
+    height: 20px;
+}
+
+div {
+    line-height: 0;
+}
